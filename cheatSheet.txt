@@ -1,0 +1,6 @@
+# make a program executable from everywhere
+# do not include the program file name itself in the path
+# temporary:
+export PATH=$PATH:/your/file/path
+# permanently:
+add export PATH=$PATH:/your/file/path to ~/.bashrc
