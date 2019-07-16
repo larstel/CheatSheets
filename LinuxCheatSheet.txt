@@ -6,7 +6,8 @@ export PATH=$PATH:/your/file/path
 add export PATH=$PATH:/your/file/path to ~/.bashrc
 
 # open files
-xdg-open file.name
+xdg-open file.name (deprecated)
+-> gio open file.name
 
 # file metadata
 identify file.name
