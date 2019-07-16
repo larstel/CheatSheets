@@ -7,3 +7,6 @@ add export PATH=$PATH:/your/file/path to ~/.bashrc
 
 # open files
 xdg-open file.name
+
+# file metadata
+identify file.name
