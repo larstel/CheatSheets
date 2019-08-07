@@ -1,0 +1,4 @@
+# case insensitiv search
+\c
+
+
