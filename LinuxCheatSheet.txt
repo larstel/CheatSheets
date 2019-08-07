@@ -12,6 +12,9 @@ xdg-open file.name (deprecated)
 # file metadata
 identify file.name
 
+# search strings in documents
+grep -iRl "???"
+
 # multiple cd's (save in ~/.bashrc) --> example: cd.. 4
 function cd_up() {
   cd $(printf "%0.s../" $(seq 1 $1 ));
