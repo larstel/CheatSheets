@@ -20,3 +20,7 @@ function cd_up() {
   cd $(printf "%0.s../" $(seq 1 $1 ));
 }
 alias 'cd..'='cd_up'
+
+# find devices in same network
+netstat -i # find interface name
+sudo arp-scan -l --interface=wlp3s0 # list devices
